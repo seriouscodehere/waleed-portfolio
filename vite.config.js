@@ -5,9 +5,11 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/React-Portfolio/",  // add this line
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
+      // eslint-disable-next-line no-undef
       "@": path.resolve(__dirname, "./src"),
     },
   },
