@@ -27,8 +27,8 @@ export const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: <Mail size={16} />, text: "codewithkinu@gmail.com", href: "mailto:codewithkinu@gmail.com.com" },
-    { icon: <Phone size={16} />, text: "+91 9315145594", href: "tel:+919315145594" },
+    { icon: <Mail size={16} />, text: "waleeddevfactory@gmail.com", href: "mailto:waleeddevfactory@gmail.com" },
+    { icon: <Phone size={16} />, text: "+92 3051659315", href: "tel:+923051659315" },
   ];
 
   const containerVariants = {
