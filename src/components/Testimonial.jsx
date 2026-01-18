@@ -182,7 +182,7 @@ export const TestimonialSection = () => {
                     <Quote className="h-6 w-6 sm:h-8 sm:w-8 text-primary/30 mb-3 sm:mb-4 group-hover:text-primary/50 transition-colors" />
 
                     <p className="text-base sm:text-lg text-muted-foreground mb-4 sm:mb-6 flex-1">
-                      "{testimonial.content}"
+                      &quot;{testimonial.content}&quot;
                     </p>
 
                     <div className="mt-auto">
@@ -270,7 +270,7 @@ export const TestimonialSection = () => {
                 className="p-1 sm:p-2 rounded-full border border-muted-foreground/20 hover:border-primary/50 bg-background/80 backdrop-blur-sm transition-all hover:scale-110"
                 aria-label="Next testimonial"
               >
-                <ChevronRight className="h-4 w-4 sm:h-5 sm:h-5" />
+                <ChevronRight className="h-4 w-4 sm:h-5" />
               </button>
             </div>
           )}
